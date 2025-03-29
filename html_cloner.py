@@ -57,8 +57,8 @@ def create_zip(folder):
     return zip_filename
 
 if __name__ == "__main__":
-    website_url = "https://tele-shopping.store/slimfit-fr"
-    output_folder = "cloned_website"
+    website_url = "https://unige.it/"
+    output_folder = "cloned_websites"
     
     print("Cloning website...")
     cloned_folder = clone_website(website_url, output_folder)
